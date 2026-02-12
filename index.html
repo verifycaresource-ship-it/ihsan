@@ -274,57 +274,89 @@ function mobileMenu() {
   </div>
 </section>
 
-<!-- ================= WHY IHSAN CARE SECTION ================= -->
-<section class="bg-white py-24 px-6 lg:px-20">
+<!-- ================= PLATFORM CAPABILITIES SECTION ================= -->
+<section class="relative bg-gradient-to-b from-white to-gray-50 py-28 px-6 lg:px-20 overflow-hidden">
 
-  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+  <!-- Soft background glow -->
+  <div class="absolute top-0 right-0 w-96 h-96 bg-teal-100 rounded-full blur-3xl opacity-30"></div>
+
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center relative z-10">
 
     <!-- LEFT CONTENT -->
     <div>
+<span class="inline-flex items-center gap-2 px-4 py-1.5 text-xs font-semibold 
+bg-teal-50 text-teal-700 rounded-full border border-teal-100 mb-6">
+  <span class="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></span>
+  National Digital Health Infrastructure
+</span>
 
-      <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-    Platform Capabilities
-  </h2>
+<h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight tracking-tight">
+  Rebuilding Somalia’s
+  <br class="hidden lg:block">
+  <span class="bg-gradient-to-r from-teal-600 to-emerald-500 bg-clip-text text-transparent">
+    Maternal & Child Health System
+  </span>
+</h2>
+
+<p class="mt-6 text-gray-600 text-lg leading-relaxed max-w-xl">
+  A unified biometric identity layer, AI-powered risk detection, 
+  and real-time national dashboards designed to reduce mortality, 
+  eliminate fraud, and modernize healthcare delivery.
+</p>
+
 
       <!-- KEY HEALTH RISKS -->
-      <div class="mt-10 space-y-6">
+      <div class="mt-12 space-y-8">
 
-        <div class="flex items-start gap-4">
-          <div class="w-10 h-10 flex items-center justify-center bg-red-100 rounded-xl text-red-600 font-bold">1</div>
+        <!-- Item -->
+        <div class="group flex items-start gap-5 p-4 rounded-2xl hover:bg-white hover:shadow-lg transition duration-300">
+          <div class="w-11 h-11 flex items-center justify-center bg-red-100 rounded-xl text-red-600 font-bold text-lg group-hover:scale-110 transition">
+            1
+          </div>
           <div>
-            <h4 class="font-semibold text-gray-800">Teenage Pregnancy Crisis</h4>
-            <p class="text-gray-600 text-sm">
-              High rates of adolescent pregnancy increase maternal death, school dropout, and long-term poverty.
+            <h4 class="font-semibold text-gray-900 text-lg">Teenage Pregnancy Crisis</h4>
+            <p class="text-gray-600 text-sm mt-1">
+              High adolescent pregnancy increases maternal deaths, school dropout,
+              and long-term poverty cycles.
             </p>
           </div>
         </div>
 
-        <div class="flex items-start gap-4">
-          <div class="w-10 h-10 flex items-center justify-center bg-orange-100 rounded-xl text-orange-600 font-bold">2</div>
+        <div class="group flex items-start gap-5 p-4 rounded-2xl hover:bg-white hover:shadow-lg transition duration-300">
+          <div class="w-11 h-11 flex items-center justify-center bg-orange-100 rounded-xl text-orange-600 font-bold text-lg group-hover:scale-110 transition">
+            2
+          </div>
           <div>
-            <h4 class="font-semibold text-gray-800">Maternal Mortality</h4>
-            <p class="text-gray-600 text-sm">
-              Limited access to antenatal care and emergency services puts mothers at serious risk.
+            <h4 class="font-semibold text-gray-900 text-lg">Maternal Mortality</h4>
+            <p class="text-gray-600 text-sm mt-1">
+              Limited antenatal care and emergency response infrastructure
+              place mothers at serious risk.
             </p>
           </div>
         </div>
 
-        <div class="flex items-start gap-4">
-          <div class="w-10 h-10 flex items-center justify-center bg-yellow-100 rounded-xl text-yellow-600 font-bold">3</div>
+        <div class="group flex items-start gap-5 p-4 rounded-2xl hover:bg-white hover:shadow-lg transition duration-300">
+          <div class="w-11 h-11 flex items-center justify-center bg-yellow-100 rounded-xl text-yellow-600 font-bold text-lg group-hover:scale-110 transition">
+            3
+          </div>
           <div>
-            <h4 class="font-semibold text-gray-800">Child Malnutrition & Disease</h4>
-            <p class="text-gray-600 text-sm">
-              Preventable illnesses and malnutrition remain major threats to children under five.
+            <h4 class="font-semibold text-gray-900 text-lg">Child Malnutrition & Disease</h4>
+            <p class="text-gray-600 text-sm mt-1">
+              Preventable illnesses and malnutrition continue to threaten
+              children under five.
             </p>
           </div>
         </div>
 
-        <div class="flex items-start gap-4">
-          <div class="w-10 h-10 flex items-center justify-center bg-teal-100 rounded-xl text-teal-600 font-bold">4</div>
+        <div class="group flex items-start gap-5 p-4 rounded-2xl hover:bg-white hover:shadow-lg transition duration-300">
+          <div class="w-11 h-11 flex items-center justify-center bg-teal-100 rounded-xl text-teal-600 font-bold text-lg group-hover:scale-110 transition">
+            4
+          </div>
           <div>
-            <h4 class="font-semibold text-gray-800">Weak Health Data Systems</h4>
-            <p class="text-gray-600 text-sm">
-              Paper-based systems delay outbreak detection and reduce transparency and accountability.
+            <h4 class="font-semibold text-gray-900 text-lg">Weak Health Data Systems</h4>
+            <p class="text-gray-600 text-sm mt-1">
+              Paper-based systems delay outbreak detection, weaken accountability,
+              and limit donor transparency.
             </p>
           </div>
         </div>
@@ -332,14 +364,14 @@ function mobileMenu() {
       </div>
 
       <!-- CTA BUTTONS -->
-      <div class="mt-10 flex flex-wrap gap-4">
+      <div class="mt-12 flex flex-wrap gap-4">
         <a href="#contact"
-           class="px-6 py-3 bg-teal-600 text-white font-semibold rounded-xl shadow hover:bg-teal-700 transition">
+           class="px-8 py-3 bg-teal-600 text-white font-semibold rounded-xl shadow-lg hover:bg-teal-700 hover:shadow-xl transition duration-300">
            Partner With Us
         </a>
 
         <a href="#impact"
-           class="px-6 py-3 border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-100 transition">
+           class="px-8 py-3 border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-100 transition duration-300">
            See Our Impact
         </a>
       </div>
@@ -349,18 +381,26 @@ function mobileMenu() {
     <!-- RIGHT SIDE - SYSTEM IMAGE -->
     <div class="relative text-center">
 
-      <div class="absolute -top-6 -left-6 w-24 h-24 bg-teal-100 rounded-full blur-2xl opacity-60"></div>
+      <!-- Decorative glow -->
+      <div class="absolute -top-10 -left-10 w-40 h-40 bg-teal-200 rounded-full blur-3xl opacity-30"></div>
 
-      <img 
-        src="https://res.cloudinary.com/dzflw2ka9/image/upload/v1770898166/ChatGPT_Image_Feb_12_2026_03_04_37_PM_1_fjb133.png"
-        alt="Ihsan Care Digital Health Dashboard"
-        class="rounded-3xl shadow-2xl border border-gray-200 w-full cursor-pointer"
-        onclick="openModal()"
-      >
+      <div class="relative group">
+        <img 
+          src="https://res.cloudinary.com/dzflw2ka9/image/upload/v1770898166/ChatGPT_Image_Feb_12_2026_03_04_37_PM_1_fjb133.png"
+          alt="Ihsan Care Digital Health Dashboard"
+          class="rounded-3xl shadow-2xl border border-gray-200 w-full transition duration-500 group-hover:scale-[1.02]"
+          onclick="openModal()"
+        >
+
+        <!-- Floating badge -->
+        <div class="absolute bottom-6 left-6 bg-white px-4 py-2 rounded-xl shadow-md text-sm font-semibold text-gray-700">
+          Live National Dashboard
+        </div>
+      </div>
 
       <!-- View Button -->
       <button onclick="openModal()"
-        class="mt-6 inline-block px-6 py-3 bg-teal-600 text-white font-semibold rounded-xl shadow hover:bg-teal-700 transition">
+        class="mt-8 inline-block px-8 py-3 bg-teal-600 text-white font-semibold rounded-xl shadow-lg hover:bg-teal-700 hover:shadow-xl transition duration-300">
         🔍 View Full System
       </button>
 
@@ -369,6 +409,7 @@ function mobileMenu() {
   </div>
 
 </section>
+
 
 
 <!-- ================= IMAGE MODAL ================= -->
@@ -443,10 +484,25 @@ function mobileMenu() {
       <p class="mt-6 text-sm text-slate-600">*These numbers represent our targets for the pilot and first deployment phase.</p>
     </div>
 
-    <!-- Right: Video -->
-    <div class="relative aspect-w-16 aspect-h-9 max-w-full mx-auto rounded-2xl shadow-lg overflow-hidden">
- <iframe src="https://www.facebook.com/plugins/video.php?height=316&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1152102189587993%2F&show_text=false&width=560&t=0" width="560" height="316" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-    </div>
+ <!-- Right: Video -->
+<div class="relative w-full max-w-4xl mx-auto rounded-2xl shadow-xl overflow-hidden">
+
+  <!-- 16:9 Aspect Ratio Wrapper -->
+  <div class="relative w-full pb-[56.25%] h-0">
+
+    <iframe
+      src="https://www.facebook.com/plugins/video.php?height=316&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1152102189587993%2F&show_text=false&width=560&t=0"
+      class="absolute top-0 left-0 w-full h-full"
+      style="border:none;overflow:hidden"
+      scrolling="no"
+      frameborder="0"
+      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+
+  </div>
+</div>
+
 
   </div>
 </section>
@@ -613,50 +669,7 @@ function mobileMenu() {
 </section>
 
 <!-- ================= CONTACT ================= -->
-<!-- ================= CONTACT ================= -->
-<section id="contact" class="py-20 bg-white">
-  <div class="max-w-4xl mx-auto px-6 text-center">
-    <h2 class="text-4xl font-bold mb-8 text-teal-700">Get in Touch</h2>
-    <p class="mb-12 text-slate-700 text-lg">
-      We’re here to answer your questions and help you collaborate with Ihsan Care. Reach out to us through any of the channels below.
-    </p>
 
-    <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-8 text-slate-700">
-      
-      <!-- Email -->
-      <div class="bg-teal-50 rounded-2xl shadow-lg p-8 hover:scale-105 transform transition">
-        <div class="text-teal-700 text-3xl mb-4">
-          <i class="uil uil-envelope"></i>
-        </div>
-        <h3 class="font-semibold text-xl mb-2 text-teal-800">Email</h3>
-        <p class="text-slate-700 text-sm">
-          <a href="mailto:info@ihsancare.com" class="hover:text-teal-600 transition">info@ihsanfamilies.com</a>
-        </p>
-      </div>
-
-      <!-- Phone -->
-      <div class="bg-teal-50 rounded-2xl shadow-lg p-8 hover:scale-105 transform transition">
-        <div class="text-teal-700 text-3xl mb-4">
-          <i class="uil uil-phone"></i>
-        </div>
-        <h3 class="font-semibold text-xl mb-2 text-teal-800">Phone</h3>
-        <p class="text-slate-700 text-sm">
-          <a href="tel:+252612345678" class="hover:text-teal-600 transition">+254724132771</a>
-        </p>
-      </div>
-
-      <!-- Address -->
-      <div class="bg-teal-50 rounded-2xl shadow-lg p-8 hover:scale-105 transform transition">
-        <div class="text-teal-700 text-3xl mb-4">
-          <i class="uil uil-location-point"></i>
-        </div>
-        <h3 class="font-semibold text-xl mb-2 text-teal-800">Address</h3>
-        <p class="text-slate-700 text-sm">Mogadishu, Somalia</p>
-      </div>
-
-    </div>
-  </div>
-</section>
 
 <!-- Include Unicons for icons -->
 <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
@@ -700,7 +713,50 @@ function mobileMenu() {
     </div>
   </div>
 </section>
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="py-20 bg-white">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold mb-8 text-teal-700">Get in Touch</h2>
+    <p class="mb-12 text-slate-700 text-lg">
+      We’re here to answer your questions and help you collaborate with Ihsan Care. Reach out to us through any of the channels below.
+    </p>
 
+    <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-8 text-slate-700">
+      
+      <!-- Email -->
+      <div class="bg-teal-50 rounded-2xl shadow-lg p-8 hover:scale-105 transform transition">
+        <div class="text-teal-700 text-3xl mb-4">
+          <i class="uil uil-envelope"></i>
+        </div>
+        <h3 class="font-semibold text-xl mb-2 text-teal-800">Email</h3>
+        <p class="text-slate-700 text-sm">
+          <a href="mailto:info@ihsancare.com" class="hover:text-teal-600 transition">info@ihsanfamilies.com</a>
+        </p>
+      </div>
+
+      <!-- Phone -->
+      <div class="bg-teal-50 rounded-2xl shadow-lg p-8 hover:scale-105 transform transition">
+        <div class="text-teal-700 text-3xl mb-4">
+          <i class="uil uil-phone"></i>
+        </div>
+        <h3 class="font-semibold text-xl mb-2 text-teal-800">Phone</h3>
+        <p class="text-slate-700 text-sm">
+          <a href="tel:+252612345678" class="hover:text-teal-600 transition">+254724132771</a>
+        </p>
+      </div>
+
+      <!-- Address -->
+      <div class="bg-teal-50 rounded-2xl shadow-lg p-8 hover:scale-105 transform transition">
+        <div class="text-teal-700 text-3xl mb-4">
+          <i class="uil uil-location-point"></i>
+        </div>
+        <h3 class="font-semibold text-xl mb-2 text-teal-800">Address</h3>
+        <p class="text-slate-700 text-sm">Kismayo, Somalia</p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- ================= MODERN FOOTER ================= -->
 <footer class="bg-slate-900 text-slate-200 pt-16 pb-12">
