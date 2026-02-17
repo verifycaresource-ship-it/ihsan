@@ -1,53 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Home -->
   <url>
-    <loc>https://ihsanfamilies.com/</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.ihsanfamilies.com/</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  <!-- About -->
   <url>
-    <loc>https://ihsanfamilies.com/#about</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://www.ihsanfamilies.com/#about</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- Projects / Impact -->
   <url>
-    <loc>https://ihsanfamilies.com/#platform</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://www.ihsanfamilies.com/#projects</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Pilot Project -->
+  <url>
+    <loc>https://www.ihsanfamilies.com/#pilot</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- Donors / Engagement -->
   <url>
-    <loc>https://ihsanfamilies.com/#impact</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://www.ihsanfamilies.com/#donors</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Partners -->
+  <url>
+    <loc>https://www.ihsanfamilies.com/#partners</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- Governance & Compliance -->
   <url>
-    <loc>https://ihsanfamilies.com/#pilot</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://www.ihsanfamilies.com/#governance</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- Team / Members -->
   <url>
-    <loc>https://ihsanfamilies.com/#partners</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://www.ihsanfamilies.com/#team</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- Contact -->
   <url>
-    <loc>https://ihsanfamilies.com/#contact</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://www.ihsanfamilies.com/#contact</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Gallery / Media -->
+  <url>
+    <loc>https://www.ihsanfamilies.com/#gallery</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Engagement in Progress -->
+  <url>
+    <loc>https://www.ihsanfamilies.com/#engagement</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Footer / Legal Pages -->
+  <url>
+    <loc>https://www.ihsanfamilies.com/privacy-policy</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ihsanfamilies.com/terms-of-service</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 
 </urlset>
