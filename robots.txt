@@ -1,15 +1,4 @@
-# robots.txt for ihsanfamilies.com
-
 User-agent: *
-Disallow: /wp-admin/
-Disallow: /login/
-Disallow: /register/
-Disallow: /cgi-bin/
-Disallow: /tmp/
-Disallow: /old/
-Disallow: /services/   # removed because this page doesn’t exist
-Disallow: /*?*         # optional: block URL parameters (like session IDs)
-Allow: /
+Disallow:
 
-# Sitemap location
 Sitemap: https://www.ihsanfamilies.com/sitemap.xml
